@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> urban Chocolates</title>
+    
+    <link rel="stylesheet" type="text/css" href="project.css">
+  </head>
+  <body>
+    <h1>Chocolates</h1>
+    <div id="products">
+      <ul>
+        <li>
+          <h2>Milk Chocolate Bar</h2>
+          <img src="https://cdn.shopify.com/s/files/1/0574/3280/1445/products/ImageProxy_55ffb3b4-13e6-476e-8726-6dd9095a3e3e.jpg?v=1631907264" alt="Milk Chocolate Bar">
+          <p>Creamy and delicious milk chocolate bar.</p>
+          <p>$2.99</p>
+          <p>Inventory: 100</p>
+          <button onclick="alert('You clicked on the Milk Chocolate Bar view button')">View</button>
+        </li>
+        <li>
+          <h2>Dark Chocolate Bar</h2>
+          <img src="https://cdn.shopify.com/s/files/1/0574/3280/1445/products/ImageProxy_f3be8448-5639-4245-b9a1-000e273d99cb_1500x.jpg?v=1631907265" alt="Dark Chocolate Bar">
+          <p>Rich and intense dark chocolate bar.</p>
+          <p>$3.49</p>
+          <p>Inventory: 50</p>
+          <button onclick="alert('You clicked on the Dark Chocolate Bar view button')">View</button>
+        </li>
+        <li>
+          <h2>Assorted Chocolate Truffles</h2>
+          <img src="https://cdn1.simplychocolate.com/wcsstore/SimplyChocolate/images/catalog/16373520x.jpg" alt="Assorted Chocolate Truffles">
+          <p>A box of delicious assorted chocolate truffles.</p>
+          <p>$12.99</p>
+          <p>Inventory: 20</p>
+          <button onclick="alert('You clicked on the Assorted Chocolate Truffles view button')">View</button>
+        </li>
+        <li>
+          <h2>White Chocolate Bar</h2>
+          <img src="https://cdn.shopify.com/s/files/1/0574/3280/1445/products/ImageProxy_6dd32103-45b6-4e92-a572-a3205bfe6801.jpg?v=1631907265" alt="White Chocolate Bar">
+          <p>Smooth and sweet white chocolate bar.</p>
+          <p>$3.99</p>
+          <p>Inventory: 75</p>
+          <button onclick="alert('You clicked on the White Chocolate Bar view button')">View</button>
+        </li>
+        <li>
+          <h2>Hazelnut Milk Chocolate Bar</h2>
+          <img src="https://img01.aws.kooomo-cloud.com/upload/butlers-chocolates/images/A6823_big.jpg?v=16" alt="Hazelnut Milk Chocolate Bar">
+          <p>Milk chocolate bar with crunchy hazelnut pieces.</p>
+          <p>$4.49</p>
+          <p>Inventory: 60</p>
+          <button onclick="alert('You clicked on the Hazelnut Milk Chocolate Bar view button')">View</button>
+        </li>
+      </ul>
+    </div>
+    <script>
+      
+    // Get all the view buttons
+    const viewButtons = document.querySelectorAll('.view-button');
+
+    // Add a click event listener to each view button
+    viewButtons.forEach(function(viewButton) {
+        viewButton.addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            
+            // Get the card element that contains the clicked view button
+            const card = event.target.closest('.card');
+
+            // Get the details of the chocolate product
+            const title = card.querySelector('h3').textContent;
+            const imageSrc = card.querySelector('img').src;
+            const description = card.querySelectorAll('p')[0].textContent;
+            const price = card.querySelectorAll('p')[1].textContent;
+            const inventory = card.querySelectorAll('p')[2].textContent;
+
+            // Display the details in an alert box
+            const message = `Title: ${title}\nDescription: ${description}\nPrice: ${price}\nInventory: ${inventory}`;
+            alert(message);
+        });
+    });
+</script>
+
+    </script>
+  </body>
+</html>
