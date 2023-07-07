@@ -5,9 +5,9 @@ Urban Chocolates is a web application that showcases a variety of delicious choc
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+- HTML.
+- CSS.
+- JavaScript.
 
 ## Features
 
