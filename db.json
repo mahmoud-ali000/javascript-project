@@ -6,7 +6,7 @@
       "description": "Creamy and delicious milk chocolate bar.",
       "price": 2.99,
       "image": "https://cdn.shopify.com/s/files/1/0574/3280/1445/products/ImageProxy_55ffb3b4-13e6-476e-8726-6dd9095a3e3e.jpg?v=1631907264",
-      "inventory": 100
+      "Inventory": 100
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "description": "Rich and intense dark chocolate bar.",
       "price": 3.49,
       "image": "https://cdn.shopify.com/s/files/1/0574/3280/1445/products/ImageProxy_f3be8448-5639-4245-b9a1-000e273d99cb_1500x.jpg?v=1631907265",
-      "inventory": 50
+      "Inventory": 50
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "description": "A box of delicious assorted chocolate truffles.",
       "price": 12.99,
       "image": "https://cdn1.simplychocolate.com/wcsstore/SimplyChocolate/images/catalog/16373520x.jpg",
-      "inventory": 20
+      "Inventory": 20
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "description": "Smooth and sweet white chocolate bar.",
       "price": 3.99,
       "image": "https://cdn.shopify.com/s/files/1/0574/3280/1445/products/ImageProxy_6dd32103-45b6-4e92-a572-a3205bfe6801.jpg?v=1631907265",
-      "inventory": 75
+      "Inventory": 75
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "description": "Milk chocolate bar with crunchy hazelnut pieces.",
       "price": 4.49,
       "image": "https://img01.aws.kooomo-cloud.com/upload/butlers-chocolates/images/A6823_big.jpg?v=16",
-      "inventory": 60
+      "Inventory": 60
     }
   ]}
 
