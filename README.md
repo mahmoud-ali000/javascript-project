@@ -34,4 +34,12 @@ This project is licensed under the MIT License - see the(LICENSE) file for detai
 ## Acknowledgements
 
 The product images used in this application are sourced from various chocolate retailers.
+## Usage
+
+- Upon opening the application, users will see a list of chocolate products displayed on the page.
+- Users can click on the "View" button of each product to view its details in an alert box.
+- Users can browse through the list of products and explore the available chocolate options.
+
+Visit the deployed Urban Chocolates project [here](https://github.com/mahmoud-ali000/javascript-project) to explore the project online.
+
 
